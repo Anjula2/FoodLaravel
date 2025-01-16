@@ -35,7 +35,7 @@
             <li>
               <a href="{{url('cart')}}" class="flex items-center text-white hover:text-yellow-500 transition duration-300 ease-in-out">
               <i class="fas fa-shopping-cart"></i> 
-              <span class="ml-2">Cart [{{$count}}]</span>
+              <span class="ml-2">Car [{{$count}}]</span>
             </a>
            </li>
           </ul>
