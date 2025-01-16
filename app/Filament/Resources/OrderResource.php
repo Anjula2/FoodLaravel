@@ -104,6 +104,7 @@ class OrderResource extends Resource
                     ->requiresConfirmation()
                     ->color('danger')
                     ->icon('heroicon-o-x-mark'),
+                Tables\Actions\DeleteAction::make(),
             ])
             ->bulkActions([
                 Tables\Actions\BulkActionGroup::make([
